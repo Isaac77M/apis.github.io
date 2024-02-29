@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imágenes con Fetch y XMLHttpRequest</title>
-  <link rel="stylesheet" href="gogapi.css">
+  <title>api</title>
 </head>
 <body>
-  <h1>Fotos Random de perros</h1>
-  <h1>Esau Balerdi</h1>
+  <h1>API de fotos de perros</h1>
+  <h1>Esta api te muestra imagenes de perros random </h1>
+  <h1>se usaron 4 metodos diferentes</h1>
+  <h1>espero lo disfruten :))</h1>
   <div id="botones">
     <button id="btn-fetch">Obtener imagen con Fetch</button>
-    <button id="btn-xhr">Obtener imagen con XMLHttpRequest</button>
+    <button id="btn-httprequest">Obtener imagen con XMLHttpRequest</button>
+    <button id="btn-jquery-normal">Obtener imagen con jQuery</button>
+    <button id="btn-jquery-random">Obtener 4 imágenes aleatorias con jQuery</button>
+
+
   </div>
   <div id="imagen"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="dogapi.js"></script>
+  <link rel="stylesheet" href="gogapi.css">
 </body>
 </html>
